@@ -1,32 +1,10 @@
 {
   "private": true,
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^1.5.1"
+    "gulp": "^3.8.8"
   },
   "dependencies": {
-    "laravel-elixir": "^3.0.0",
+    "laravel-elixir": "^4.0.0",
     "bootstrap-sass": "^3.0.0"
-  },
-  "name": "morelia",
-  "description": "Plantilla Morelia Hacks 2015",
-  "version": "1.0.0",
-  "main": "gulpfile.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/softcodec/MoreliaHack.git"
-  },
-  "author": "Joel Álvarez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/softcodec/MoreliaHack/issues"
-  },
-  "homepage": "https://github.com/softcodec/MoreliaHack#readme"
+  }
 }

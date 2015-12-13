@@ -11,6 +11,33 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+use GrahamCampbell\Markdown\Facades\Markdown;
+
+
+Route::get('/original', function () {
+    return view('inicio-original');
 });
+
+Route::get('/twitter', function()
+{
+    return Twitter::postTweet(['status' => 'morelia', 'format' => 'json']);
+});
+
+
+Route::get('/sentimiento/{text}', function($text)
+{
+    return SentimentAnalysis::decision($text);
+});
+
+Route::get('/colaboradores', function () {
+    return view('colaboradores');
+});
+
+//Route::get('/readme/{user}/{repository}', ['as'=>'readme.index', 'uses' => 'ApiController@index']);
+
+Route::get('/', ['as'=>'home.index', 'uses' => 'RepositorioController@index']);
+
+Route::get('/admin', ['as'=>'home.index', 'uses' => 'RepositorioController@index_1']);
+
+Route::resource('repositorio', 'RepositorioController');
+

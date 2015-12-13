@@ -15,19 +15,6 @@ elixir(function(mix) {
     mix.sass('app.scss');
 });
 
-
-/*
-* Dependencias
-*/
-var gulp = require('gulp'),
-concat = require('gulp-concat'),
-uglify = require('gulp-uglify');
-/*
-* Configuración de las tareas 'demo'
-*/
-gulp.task('demo', function () {
-gulp.src('js/source/*.js')
-.pipe(concat('compilacion.js'))
-.pipe(uglify())
-.pipe(gulp.dest('js/build/'))
+elixir(function(mix) {
+   mix.sass('app.scss').browserSync({proxy:'localhost:8888/moreliahacks/moreliahacks/public/'});
 });
