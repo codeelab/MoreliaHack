@@ -6,6 +6,6 @@
 
 MORELIA Hacks - Hackathon Diciembre 2015 "La Colaboración es el futuro".
 
-### Demo
+### Visualización
 
-[DEMO](https://api.moreliahacks.org/)
+[Detalles](http://api.moreliahacks.org/)
