@@ -13,8 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
-    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
-    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <meta name="description" content="Morelia Hacks">
+    <meta name="keywords" content="Morelia,Michoacán,México,Hack,Hackers,Hackathon, MoreliaHacks, API, API's, Gobierno, Ciudadanos">
     <title>Morelia Hacks - 2015</title>
 
     <!-- Favicons-->
@@ -66,10 +66,6 @@
 
     #content {
         margin-top: 0;
-    }
-
-    .card-action a:hover {
-        text-decoration: underline;
     }
 
     .card .card-content .card-title {
@@ -164,8 +160,8 @@
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
-                Copyright © 2015 <a class="grey-text text-lighten-4" href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a> All rights reserved.
-                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="http://geekslabs.com/">GeeksLabs</a></span>
+                Copyright © 2015 - {{date('Y')}} <a class="grey-text text-lighten-4" href="http://moreliahacks.org/" target="_blank">MoreliaHacks!</a> All rights reserved.
+                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="{{url('colaboradores')}}">Contributors</a></span>
             </div>
         </div>
     </footer>

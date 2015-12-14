@@ -38,8 +38,8 @@
                     @foreach($repositorios as $item)
 
                     <div class="col s12 m6 l4">
-                      <div class="card orange darken-1">
-                          <div class="card-content orange">
+                      <div class="card grey darken-1">
+                          <div class="card-content grey lighten-1">
                             <span class="card-title">{{$item->nombre}}</span>
                             <p style="margin-bottom: 1em; font-size: 1.2em; margin-top: 1em;">{{$item->descripcion}}</p>
                             <p class="grey-text text-darken-3"> Agregado el {{$item->fecha_publicacion}} <br />por {{$item->autores}}</p>
