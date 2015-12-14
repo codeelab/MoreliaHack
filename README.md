@@ -6,7 +6,6 @@
 
 MORELIA Hacks - Hackathon Diciembre 2015 "La Colaboración es el futuro".
 
+### Demo
 
-### Licencia
-
-Morelia Hacks is made ​​in laravel software , open source licensed under the [MIT license](http://opensource.org/licenses/MIT)
+[DEMO](https://api.moreliahacks.org/)
