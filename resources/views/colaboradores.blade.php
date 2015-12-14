@@ -18,235 +18,130 @@
                 <div class="container">
 
                 <div id="card-stats" class="seaction">
-                
-                <h4 class="header">APIs de Facebook y Twitter</h4>
+
                 <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  red white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Ivan Rosas Rivera </p>
-                                    </div>
-                                </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  red white-text">
+                                <p class="card-stats-title"> APIs de Facebook y Twitter</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  6</h4>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  red white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Javier Silva Sanchez </p>
-                                    </div>
-                                </div>
+                        <div class="card-action  red lighten-1">
+                        <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  purple white-text">
+                                <p class="card-stats-title"> Crawling</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  3</h4>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  red white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Jair Albarran Laguna </p>
-                                    </div>
-                                </div>
+                        <div class="card-action  purple lighten-1">
+                            <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  lime white-text">
+                                <p class="card-stats-title"> Datos abiertos</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  2</h4>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  red white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Julio Cesar Mendoza Ramirez </p>
-                                    </div>
-                                </div>
+                        <div class="card-action  lime lighten-1">
+                            <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  green white-text">
+                                <p class="card-stats-title"> Geo localización</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  1</h4>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  red white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Cristian Ramirez Rosasas </p>
-                                    </div>
-                                </div>
+                            <div class="card-action  green darken-2">
+                                <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  red white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Jorge Luis Huerta Moreno </p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>           
-                
-                <h4 class="header">Crawling</h4>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content deep-purple white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Miguel Angel Cedeño Garcidueñas </p>
-                                    </div>
-                                </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  teal white-text">
+                                <p class="card-stats-title"> Procesamiento de lenguaje natural</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  3</h4>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content deep-purple white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i>  Jesse William Madriz </p>
-                                    </div>
-                                </div>
+                            <div class="card-action  teal lighten-1">
+                                <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  blue white-text">
+                                <p class="card-stats-title"> Visualización de datos</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  4</h4>
+                            </div>
+                            <div class="card-action  blue lighten-1">
+                                <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  orange white-text">
+                                <p class="card-stats-title"> Resiliencia</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  1</h4>
+                            </div>
+                            <div class="card-action  orange lighten-1">
+                                <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  brown white-text">
+                                <p class="card-stats-title"> Movilidad</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  2</h4>
+                            </div>
+                            <div class="card-action  brown lighten-1">
+                                <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="header">Datos abiertos</h4>
+
+
                 <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  blue white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Francisco Javier Ferreyra López </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> pacofigo@outlook.com</span></p>
-                                    </div>
-                                </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  grey white-text">
+                                <p class="card-stats-title"> Prevención del delito</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  3</h4>
                             </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  blue white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Ricardo Zamora Jacobo </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> rica_zamora@hotmail.com</span></p>
-                                    </div>
+                                <div class="card-action  grey lighten-1">
+                                    <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
                                 </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-content  deep-orange white-text">
+                                <p class="card-stats-title"> Fractal</p>
+                                    <h4 class="card-stats-number"><i class="mdi-action-face-unlock"></i>  1</h4>
                             </div>
+                                <div class="card-action  deep-orange lighten-1">
+                                    <span class="green-text text-lighten-5"><a href="{{url('grupo')}}">Detalles</a></span>
+                                </div>
+                        </div>
+                    </div>
                 </div>
-                
-                <h4 class="header">Geo localizacion</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  teal white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> DEFAULT </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> juanadrian@iCloud.com</span></p>
-                                        <p class="card-stats-compare"><a href="https://www.fb.com/JuanAdrianMx" class="brand-logo darken-1"><img src="{!! asset('layout03/images/facebook.png') !!}" alt="facebook"></a><span class="logo-text"> /JuanAdrianMx</span></p>
-                                        <p class="card-stats-compare"><a href="https://mx.linkedin.com/in/juanadrian" class="brand-logo darken-1"><img src="{!! asset('layout03/images/linkedin.png') !!}" alt="linkedin"></a><span class="logo-text"> /juanadrian</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-                
-                <h4 class="header">Procesamiento de lenguaje natural</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  light-green white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Hugo Chanocua Herrejon</p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> hugo.chanocua@gmail.com </span></p>
-                                        <p class="card-stats-compare"><a href="https://mx.linkedin.com/in/hugochanocua" class="brand-logo darken-1"><img src="{!! asset('layout03/images/linkedin.png') !!}" alt="linkedin"></a><span class="logo-text"> /hugochanocua </span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  light-green white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Diego Jesus Sanchez Del Val</p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> loki_loki_loki91@hotmail.com </span></p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-                
-                <h4 class="header">Visualizacion de datos</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  amber white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Juan Adrian Garcia Cid </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> juanadrian@iCloud.com</span></p>
-                                        <p class="card-stats-compare"><a href="https://www.fb.com/JuanAdrianMx" class="brand-logo darken-1"><img src="{!! asset('layout03/images/facebook.png') !!}" alt="facebook"></a><span class="logo-text"> /JuanAdrianMx</span></p>
-                                        <p class="card-stats-compare"><a href="https://mx.linkedin.com/in/juanadrian" class="brand-logo darken-1"><img src="{!! asset('layout03/images/linkedin.png') !!}" alt="linkedin"></a><span class="logo-text"> /juanadrian</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  amber white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Julio Cesar Ortega Contreras </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> julio.ortega.contreras@gmail.com </span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  amber white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Antonio Reyes Montufa </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  amber white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Abraham Joel Alvarez Garcia </p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-                
-                <h4 class="header">Resiliencia</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  orange white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> DEFAULT </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> juanadrian@iCloud.com</span></p>
-                                        <p class="card-stats-compare"><a href="https://www.fb.com/JuanAdrianMx" class="brand-logo darken-1"><img src="{!! asset('layout03/images/facebook.png') !!}" alt="facebook"></a><span class="logo-text"> /JuanAdrianMx</span></p>
-                                        <p class="card-stats-compare"><a href="https://mx.linkedin.com/in/juanadrian" class="brand-logo darken-1"><img src="{!! asset('layout03/images/linkedin.png') !!}" alt="linkedin"></a><span class="logo-text"> /juanadrian</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-               
-                <h4 class="header">Movilidad</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content deep-orange white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Adrian Sandoval Arvizu  </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> adrian.arvizu"gmail.com</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content deep-orange white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Ma. Guadalupe Chavez Torres </p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-                
-                <h4 class="header">Prevencion del delito</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  brown white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Gerardo Bautista Maldonado </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  brown white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Carlos Ivan Nicolas Ramos </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  brown white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Rodolfo Humberto Cedeño Castrellon </p>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-                
-                <h4 class="header">Fractal</h4>
-                <div class="row">
-                            <div class="col s12 m6 l3">
-                                <div class="card">
-                                    <div class="card-content  grey white-text">
-                                        <p class="card-stats-title"><i class="mdi-action-perm-identity"></i> Andres Gomez </p>
-                                        <p class="card-stats-compare"><img src="{!! asset('layout03/images/gmail.png') !!}" alt="correo"><span class="logo-text"> andres@fractal.ai </span></p>
-                                        <p class="card-stats-compare"><a href="https://www.twitter.com/arrobanes" class="brand-logo darken-1"><img src="{!! asset('layout03/images/twitter.png') !!}" alt="twitter"></a><span class="logo-text"> /arrobaNES</span></p>
-                                    </div>
-                                </div>
-                           </div>
-                </div>
-                </div>
-                <!--end container-->
-            </section>
-            <!-- END CONTENT -->
+
+
+                </div><!--end container-->
+            </section><!-- END CONTENT -->
 
             <!-- //////////////////////////////////////////////////////////////////////////// -->
 
@@ -275,14 +170,8 @@
     // Toast Notification
     $(window).load(function() {
         setTimeout(function() {
-            Materialize.toast('<span>Hiya! I am a toast.</span>', 1500);
-        }, 1500);
-        setTimeout(function() {
-            Materialize.toast('<span>You can swipe me too!</span>', 3000);
-        }, 5000);
-        setTimeout(function() {
-            Materialize.toast('<span>You have new order.</span><a class="btn-flat yellow-text" href="#">Read<a>', 3000);
-        }, 15000);
+            Materialize.toast('<span>Bienvenido a Morelia Hacks!!.</span>', 1500);
+        }, 2500);
     });
 
     </script>

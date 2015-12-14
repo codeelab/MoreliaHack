@@ -56,6 +56,10 @@ Route::get('/colaboradores', function () {
     return view('colaboradores');
 });
 
+Route::get('/grupo', function () {
+    return view('grupo');
+});
+
 //Route::get('/readme/{user}/{repository}', ['as'=>'readme.index', 'uses' => 'ApiController@index']);
 
 Route::get('/', ['as'=>'home.index', 'uses' => 'RepositorioController@index']);
